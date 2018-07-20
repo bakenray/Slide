@@ -33,7 +33,6 @@ $('.window').on('mouseleave',function(){
     timerId = setTimer()
 })
 
-
 // 添加class函数
 function activeBtn($button){
     $button
@@ -45,5 +44,5 @@ function setTimer(){
     return setInterval(()=>{
     n+=1;
     allButtons.eq(n%size).trigger('click')
-},2500)
+},2000)
 }
