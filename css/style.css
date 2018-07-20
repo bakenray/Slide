@@ -1,0 +1,31 @@
+*{margin:0;padding:0;}
+.window{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+}
+.images{
+    transition:transform 0.5s;
+}
+.btn-box{
+    position:fixed;
+    top:36%;
+    right:1%;
+}
+.btn-box button,
+.images img{
+    display: block;
+}
+.btn-box button{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    margin:15px 0;
+    border:1px solid rgba(255,255,255,.5);
+    outline: none;
+    background:rgba(255,255,255,.3);
+}
+.btn-box .active-on{
+    background:rgba(255,255,255,95);
+    border:1px solid rgba(255,255,255,.3);
+}
